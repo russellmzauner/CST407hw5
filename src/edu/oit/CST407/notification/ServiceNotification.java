@@ -12,15 +12,15 @@ import android.util.Log;
  * to set and clear notifications in the Notification Bar 
  * as well as keep count of the number of times "Start" has been
  * clicked.
- * 
+ * <p>
  * In addition, Strings are to be added as Extras in the Intent Bundle
  * of the service.
- * 
+ * <p>
  * Assignment specifies that the service must count how many
  * times it's been started and show a persistent notification
  * which includes the count.  Upon clearing the notification the service 
  * should reset the count and clear the notification.
- * 
+ * <p>
  * This class implements the ServiceIntent handler as well as managing 
  * the notifications. 
  * 

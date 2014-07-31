@@ -15,15 +15,15 @@ import android.view.View;
  * up a simple service that sets and clears notifications in the 
  * Notification Bar on the user clicking one of two buttons,
  * "Start" and "Clear".
- * 
+ * <p>
  * In addition, Strings are to be added as Extras in the Intent Bundle
  * of the service.
- * 
+ * <p>
  * Assignment specifies that the service must count how many
  * times it's been started and show a persistent notification
  * which includes the count.  Upon clearing the notification the service 
  * should reset the count and clear the notification.
- * 
+ * <p>
  * This class simply sets the view and sets up the methods for calling
  * the service and adding the Extra Strings to the service Intent.
  * 
