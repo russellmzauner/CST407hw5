@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <Button android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button" 
+        android:onClick="startClicked" />
+
+    <Button android:id="@+id/button_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_button" 
+        android:onClick="clearClicked" />
+    
+    <!-- Using the onClick attributes tells the SDK to handle the click events
+    	 by inflating the code when the project is built.  I didn't have to deal 
+    	 with handling the Button objects explicitly in code. -->
+    
+</LinearLayout>
